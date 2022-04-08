@@ -1,9 +1,18 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Header",
+  "settings": [
+    {
+      "id": "primary_link_list",
+      "type": "link_list",
+      "label": "Menu principale",
+      "default": "main-menu"
+    }
+  ]
+}
 {% endschema %}
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 
 {% stylesheet %}
 {% endstylesheet %}
